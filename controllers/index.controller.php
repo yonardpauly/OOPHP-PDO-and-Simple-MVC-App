@@ -2,8 +2,8 @@
 
 $IndexController = new class extends IndexModel
 {
-	public function getAllPerson() {
+	public function get_AllPerson() {
 
-		return $this->setAllPerson();
+		return $this->set_AllPerson();
 	}
 };
